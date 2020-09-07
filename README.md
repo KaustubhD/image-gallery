@@ -34,4 +34,18 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 1. `yarn create react-app`
 2. Delete useless files
 3. Setup ESlint and Prettier ✨ following [this](https://medium.com/javascript-in-plain-english/set-up-react-js-with-eslint-prettier-and-airbnb-cc015363a7c7)
-4. 👍
+4. Log in to 🔥base console
+5. Create a new project and add a new web project
+6. Copy the config displayed and add it all to the environment file
+    1. Environment files should look like
+        ```
+        REACT_APP_apiKey=AIzaSyCk8ae1F6AboDfI2k0OT7_yeg4hEFWx7ik
+        REACT_APP_authDomain=image-gallery-bf8c8.firebaseapp.com
+        REACT_APP_databaseURL=https://image-gallery-bf8c8.firebaseio.com
+        REACT_APP_projectId=image-gallery-bf8c8
+        REACT_APP_storageBucket=image-gallery-bf8c8.appspot.com
+        REACT_APP_messagingSenderId=938123897797
+        REACT_APP_appId=1:938123897797:web:44088578166bec7b9cf9ac
+        ```
+7. Enable Cloud Storage and Cloud Firestore and change the rules so they are public (Google is your friend. If not, i am too)
+8. 👍
