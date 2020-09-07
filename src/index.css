@@ -63,12 +63,10 @@ label:hover {
 .error {
 	color: var(--error);
 }
-
 .progress-bar {
 	height: 5px;
 	background: var(--primary);
 	margin-top: 20px;
-	transition: width 150ms ease;
 }
 
 .img-grid {
@@ -92,7 +90,6 @@ label:hover {
 	top: 0;
 	left: 0;
 }
-
 .backdrop {
 	position: fixed;
 	top: 0;
